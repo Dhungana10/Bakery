@@ -1,0 +1,20 @@
+.bakery-list li{
+    width:  60%;
+    margin: 20px auto;
+    margin-top: 0;
+    list-style: none;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.26);
+    padding: 16px;
+    background-color: ivory;
+    border-radius: 0.8rem;
+    animation-name: slidup;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes slidup{
+    100%{
+        transform: translateY(-230px);
+    }
+}
