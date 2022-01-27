@@ -14,6 +14,7 @@ const App = () => {
             <Route path="/allbakery" element={<AllBakery/>}/>
             <Route path="/my-cart" element={<MyCart/>}/>
             <Route path="/products" element={<Products/>}/>
+            <Link path = "/" exact to="/allbakery"></Link>
             </Routes>
       </Layout>
     
