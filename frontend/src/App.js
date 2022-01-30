@@ -1,6 +1,7 @@
 import React from "react"
 import "./App.css"
-import {Route , Routes } from "react-router-dom"
+import {Route , Routes} from "react-router-dom"
+
 
 import AllBakery from "./pages/AllBakery"
 import MyCart from "./pages/MyCart"
@@ -14,7 +15,7 @@ const App = () => {
             <Route path="/allbakery" element={<AllBakery/>}/>
             <Route path="/my-cart" element={<MyCart/>}/>
             <Route path="/products" element={<Products/>}/>
-            <Link path = "/" exact to="/allbakery"></Link>
+            <Redirect path = "/" exact to="/allbakery"></Redirect>
             </Routes>
       </Layout>
     
